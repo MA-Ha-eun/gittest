@@ -1,11 +1,10 @@
 # Bid&Buy
 
-> **실시간 중고 경매 서비스**
-
+> **중고거래에 실시간 경매를 더한 서비스**
+<br>
 <div align="center">
 
-<!-- 메인이미지(로고)(추후 추가) -->
-<!-- <img src="이미지URL" width="1000" /> -->
+<img src="./src/assets/Bid&Buy.svg" alt="Bid&Buy 로고" width="400" />
 
 </div><br>
 
@@ -188,121 +187,57 @@ PW : admin123
 
 <br>
 
-[//]: # "## 📄 관련 문서"
-[//]: #
-[//]: # "<details>"
-[//]: #
-[//]: # "<summary><b>ERD</b></summary>"
-[//]: #
-[//]: # "<!-- ERD 링크 (추후 추가) -->"
-[//]: # "<!-- [ERD](링크) -->"
-[//]: #
-[//]: # "</details>"
-[//]: #
-[//]: # "<details>"
-[//]: #
-[//]: # "<summary><b>화면설계서(Figma)</b></summary>"
-[//]: #
-[//]: # "<!-- Figma 링크 (추후 추가) -->"
-[//]: # "<!-- [화면설계서(Figma)](링크) -->"
-[//]: #
-[//]: # "</details>"
-[//]: #
-[//]: # "<details>"
-[//]: #
-[//]: # "<summary><b>API 명세서 (Swagger)</b></summary>"
-[//]: #
-[//]: # "<!-- Swagger 링크 (추후 추가) -->"
-[//]: # '<!-- <img src="이미지URL" alt="API 명세서" width="900" /> -->'
-[//]: #
-[//]: # "</details>"
-[//]: #
-[//]: # "<br>"
-
 ## ✨ 주요 기능
 
-<table align="center" style="width: 100%; max-width: 1200px; table-layout: fixed; border-collapse: collapse;">
-
-<tr>
-
-<td align="center" style="width: 50%; height: 120px; padding: 24px 16px; vertical-align: middle;">
-
-<strong>회원가입 & 로그인</strong><br>
-
-<em>이메일 인증으로 안전하게, 소셜 로그인으로 간편하게</em>
-
-</td>
-
-<td align="center" style="width: 50%; height: 120px; padding: 24px 16px; vertical-align: middle;">
-
-<strong>경매 상품 조회 · 등록</strong><br>
-
-<em>다양한 필터·정렬·카테고리로 직관적인 경매 상품 탐색 & 등록 기능</em>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" style="width: 50%; height: 120px; padding: 24px 16px; vertical-align: middle;">
-
-<strong>입찰 프로세스</strong><br>
-
-<em>입찰 안내부터 낙찰 알림까지 친절하게 이어지는 흐름</em>
-
-</td>
-
-<td align="center" style="width: 50%; height: 120px; padding: 24px 16px; vertical-align: middle;">
-
-<strong>실시간 채팅</strong><br>
-
-<em>구매자-판매자 간 1:1 대화와 결제 요청·주소·이미지까지 주고받는 실시간 채팅 기능</em>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" style="width: 50%; height: 120px; padding: 24px 16px; vertical-align: middle;">
-
-<strong>안전결제 시스템</strong><br>
-
-<em>토스페이먼츠 연동으로 안심하고 결제하고, 주문 관리도 편하게</em>
-
-</td>
-
-<td align="center" style="width: 50%; height: 120px; padding: 24px 16px; vertical-align: middle;">
-
-<strong>찜 기능</strong><br>
-
-<em>마음에 드는 경매는 찜해두고 쉽게 찾아보기</em>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" style="width: 50%; height: 120px; padding: 24px 16px; vertical-align: middle;">
-
-<strong>알림 서비스</strong><br>
-
-<em>입찰·종료·공지까지 필요한 알림을 실시간으로</em>
-
-</td>
-
-<td align="center" style="width: 50%; height: 120px; padding: 24px 16px; vertical-align: middle;">
-
-<strong>관리자 기능</strong><br>
-
-<em>문의·신고 처리부터 회원·페널티 관리, 알림 발송까지 운영에 필요한 전반적인 관리 기능 제공</em>
-
-</td>
-
-</tr>
-
+<table align="center" style="width: 100%; max-width: 900px; border-collapse: separate; border-spacing: 0 16px;">
+  <tr>
+    <td style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px 24px;">
+      <strong>🔐 회원가입 & 로그인</strong><br>
+      <em>이메일 인증으로 안전하게, 소셜 로그인으로 간편하게</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px 24px;">
+      <strong>📦 경매 상품 조회 · 등록</strong><br>
+      <em>다양한 필터·정렬·카테고리로 직관적인 경매 상품 탐색 & 등록 기능</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px 24px;">
+      <strong>💸 입찰 프로세스</strong><br>
+      <em>입찰 안내부터 낙찰 알림까지 친절하게 이어지는 흐름</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px 24px;">
+      <strong>💬 실시간 채팅</strong><br>
+      <em>구매자-판매자 간 1:1 대화와 결제 요청·주소·이미지까지 주고받는 실시간 채팅 기능</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px 24px;">
+      <strong>🛡️ 안전결제 시스템</strong><br>
+      <em>토스페이먼츠 연동으로 안심하고 결제하고, 주문 관리도 편하게</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px 24px;">
+      <strong>💜 찜 기능</strong><br>
+      <em>마음에 드는 경매는 찜해두고 쉽게 찾아보기</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px 24px;">
+      <strong>🔔 알림 서비스</strong><br>
+      <em>입찰·종료·공지까지 필요한 알림을 실시간으로</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px 24px;">
+      <strong>🛠️ 관리자 기능</strong><br>
+      <em>문의·신고 처리부터 회원·페널티 관리, 알림 발송까지 운영에 필요한 전반적인 관리 기능 제공</em>
+    </td>
+  </tr>
 </table>
 
 <br>
@@ -474,5 +409,19 @@ PW : admin123
 - 부하 테스트 진행
 - 성능 최적화 (쿼리, 렌더링 등)
 - Redis 확장 및 운영 관리
+
+<br>
+
+## 📄 관련 문서
+
+<details>
+  <summary><b>테이블/기능 요구사항 명세서</b></summary>
+  https://docs.google.com/spreadsheets/d/1tiiuyDQZtwt7OPu5pqWtwo_Ot8-M8TjxheeOr6L5Mzs/edit?usp=sharing
+</details>
+
+<details>
+  <summary><b>ERD</b></summary>
+  https://www.erdcloud.com/d/YXqSYq86nJmWGgMvj
+</details>
 
 <br>
